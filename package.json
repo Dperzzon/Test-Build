@@ -1,12 +1,18 @@
 {
-  "name": "test-build",
+  "name": "playcanvas-app",
   "version": "1.0.0",
-  "main": "playcanvas-stable.min.js",
+  "description": "PlayCanvas application",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests specified\" && exit 0",
+    "start": "node server.js"
   },
-  "keywords": [],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }
